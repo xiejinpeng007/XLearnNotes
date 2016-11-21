@@ -100,4 +100,5 @@ holder.itemView.setOnClickListener(v -> {
     }
 ```
 * 补充：  
-这里以item中间为坐标开始动画，实际还可以根据location[]、height、width调整动画位置或是重写OnTouchListener根据触摸位置设定开始动画。
+这里以item中间为坐标开始动画，以最精简的代码实现了基本动画，开发者可以以此为基础实现更复杂更精细的动画。  
+比如：还可以根据location[]、height、width调整动画位置或是重写OnTouchListener根据触摸位置设定开始动画。
