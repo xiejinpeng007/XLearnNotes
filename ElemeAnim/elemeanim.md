@@ -2,6 +2,8 @@
 
  最近项目Realese完毕，闲暇之余给公司内部的小卖部app升下级(一个人撸完了design+code)，添加了一个商城功能，因为每天都用饿了么点外卖，比较喜欢饿了么点餐落入购物车的动画，所以说自己实现了一个，做个笔记。
  
+ ![](https://github.com/xiejinpeng007/LearnNotes/blob/master/ElemeAnim/elemeanim.gif)  
+ 
  整个界面相关元素有RecyclerView + FloatActionButton，动画是点击item出现一个图标以抛物线落入购物车。
  
  整体的思路是：  
