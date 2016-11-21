@@ -1,8 +1,8 @@
 # 仿饿了么动画
 
- 最近项目Realese完毕，闲暇之余给公司内部的小卖部app升下级(一个人撸完了code+design)，添加了一个商城功能，因为每天都用饿了么点外卖，比较喜欢饿了么点餐落入购物车的动画，所以说自己实现了一个，做个笔记。
+ 最近项目Realese完毕，闲暇之余给公司内部的小卖部app升下级(一个人撸完了design+code)，添加了一个商城功能，因为每天都用饿了么点外卖，比较喜欢饿了么点餐落入购物车的动画，所以说自己实现了一个，做个笔记。
  
- 整个界面相关元素有RecyclerView + FloatActionButton，动画是点击item出现一个图标以抛物线调入购物车。
+ 整个界面相关元素有RecyclerView + FloatActionButton，动画是点击item出现一个图标以抛物线落入购物车。
  
  整体的思路是：  
  1. 点击itemView获取到相关location[]、height、width、position参数   
@@ -14,7 +14,7 @@
    /**
      * 在RecyclerView.Adapter中的itemView添加点击事件，用于获取这个itemView在窗口（Window）中的位置信息(location[])。
      * 这里传递的参数还包括itemView的宽高和position，用于更细致的调整动画的初始位置和更新相关数据。
-     * 这里发送点击事件没有使用接口而是用了RxBus调用startAddtoCartAnim()，效果和平时使用的接口一致。
+     * 这里发送点击事件没有使用接口而是用了RxBus调用startAddToCartAnim()，效果和平时使用的接口一致。
      */
 
 holder.itemView.setOnClickListener(v -> {
