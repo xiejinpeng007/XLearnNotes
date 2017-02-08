@@ -1,15 +1,15 @@
 ## Firebase Notification配置
 
-##### 前言：  
-##### 以前使用GCM的时候了解了一通，Google收购了FCM之后现在需要用到FCM,详细读了下文档发现相关API基本一致，整理一下基本使用。
+#### 前言：  
+#### 以前使用GCM的时候了解了一通，Google收购了FCM之后现在需要用到FCM,详细读了下文档发现相关API基本一致，整理一下基本使用。
 
 ### 基本配置  
-##### [官方文档](https://firebase.google.cn/docs/android/setup)
-##### 运行要求：android2.3以上及google play service 9.6.1版本以上的设备  
+#### [官方文档](https://firebase.google.cn/docs/android/setup)
+#### 运行要求：android2.3以上及google play service 9.6.1版本以上的设备  
 
-##### 1. 在firebase中创建项目后创建android子项目填写相关信息 包括：package id  
-##### 2. 复制生成的文件放到module目录下   
-##### 3. 在project目录的build.gradle下添加依赖 
+#### 1. 在firebase中创建项目后创建android子项目填写相关信息 包括：package id  
+#### 2. 复制生成的文件放到module目录下   
+#### 3. 在project目录的build.gradle下添加依赖 
 
 ```
  dependencies {
@@ -17,7 +17,7 @@
  }
 ``` 
 
-##### 4. 在module目录的build.gradle下添加依赖 
+#### 4. 在module目录的build.gradle下添加依赖 
 
 ```
  dependencies {
@@ -26,14 +26,13 @@
 }
 ```
 
-##### 底部添加plugin   
+#### 底部添加plugin   
 
 ```
 apply plugin: 'com.google.gms.google-services'
 ```  
 
-##### 5. 在项目中判断google play service是否可用、继承FirebaseInstanceIdservice、FirebaseMessagingService以及Luncher Activity进行接收消息的配置。  
-#####（参考[官方Sample](https://github.com/firebase/quickstart-android/tree/master/messaging)）  
+#### 5. 在项目中判断google play service是否可用、继承FirebaseInstanceIdservice、FirebaseMessagingService以及Luncher Activity进行接收消息的配置。（参考[官方Sample](https://github.com/firebase/quickstart-android/tree/master/messaging)）  
 ---
 ##### [官方文档](https://firebase.google.cn/docs/notifications/android/console-audience)
 ### 推送方式  
