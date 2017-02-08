@@ -1,7 +1,7 @@
 ## Firebase Notification配置
 
 #### 前言：  
-#### 以前使用GCM的时候了解了一通，Google收购了FCM之后现在需要用到FCM,详细读了下文档发现相关API基本一致，整理一下基本使用。
+#### 以前项目中用过GCM，最近Google收购了FCM之后现在需要用到FCM,读了下文档发现相关API和用法基本一致，趁此机会整理一下基本配置方法。
 
 ### 基本配置  
 #### [官方文档](https://firebase.google.cn/docs/android/setup)
