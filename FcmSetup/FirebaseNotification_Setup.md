@@ -64,7 +64,7 @@ apply plugin: 'com.google.gms.google-services'
 
 ##### 7.继承FirebaseMessagingService以及在Luncher Activity进行接收消息/数据的配置。
 
-FireBaseMessagingService中
+* FireBaseMessagingService中
 
 ```
    private final String TAG = "MyFirebaseMsgService";
@@ -117,9 +117,9 @@ FireBaseMessagingService中
         notificationManager.notify(0 /* ID of notification */, notificationBuilder.build());
     }
 ```
-在Launcher Activity中
+* 在Launcher Activity中
 
-
+```
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -132,6 +132,7 @@ FireBaseMessagingService中
                 Log.d(TAG, "Key: " + key + " Value: " + value);
             }
         }}
+```
 
 ##### [官方Sample](https://github.com/firebase/quickstart-android/tree/master/messaging) 
 ---
