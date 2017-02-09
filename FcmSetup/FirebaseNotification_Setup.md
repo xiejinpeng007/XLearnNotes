@@ -24,11 +24,7 @@
     compile 'com.google.firebase:firebase-messaging:9.6.1'
     compile 'com.google.android.gms:play-services:9.6.1'
 }
-```
-
-##### 底部添加plugin   
-
-```
+//底部添加plugin   
 apply plugin: 'com.google.gms.google-services'
 ```  
 
