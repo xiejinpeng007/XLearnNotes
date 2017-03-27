@@ -4,7 +4,9 @@
 以前项目中用过GCM，现在Google收购了FireBase之后现在需要用到推送,看了下文档发现GCM并入了FCM,相关API和用法基本一致，趁此机会整理一下基本配置方法。
 
 ### 基本配置  
-##### [官方文档](https://firebase.google.cn/docs/android/setup)
+##### [官方Doc](https://firebase.google.cn/docs/android/setup)
+##### [官方Sample](https://github.com/firebase/quickstart-android/tree/master/messaging) 
+
 ##### 运行要求：android2.3以上及google play service 9.6.1版本以上的设备  
 
 ##### 1. 在firebase中创建项目后创建android子项目填写相关信息 包括：package id  
@@ -130,9 +132,8 @@ apply plugin: 'com.google.gms.google-services'
         }}
 ```
 
-##### [官方Sample](https://github.com/firebase/quickstart-android/tree/master/messaging) 
 ---
-##### [官方文档](https://firebase.google.cn/docs/notifications/android/console-audience)
+##### [官方Doc](https://firebase.google.cn/docs/notifications/android/console-audience)
 ### 推送方式  
 1. 根据app id推送
 2. 根据设备的fcm Id推送 
@@ -150,3 +151,19 @@ apply plugin: 'com.google.gms.google-services'
 | ------------- |:-----------------:|:-----:|:---:|
 | 前台           | onMessageReceived | onMessageReceived | onMessageReceived |
 | 后台           | 系统托盘           | onMessageReceived|通知：系统托盘;数据：Intent的extra中|
+
+* 实测即使app处于后台未kill的状态，通知也会交由系统处理。
+
+### icon / color 相关设定
+  在5.0以后app的small_icon只能带有aplha图层，不支持rgb图层。  
+  APP处于前台时：可以在onMessageReceived（）全权处理消息如自定义notification : large_icon , small_icon , color .  
+  APP处于后台时：由系统通知处理这部分显示，只可以在Manifest定义 : icon、color   
+  
+  ```
+        <meta-data
+ android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_ic_notification" />
+        <meta-data
+android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+            
