@@ -5,3 +5,4 @@
 * ### [Firebase Cloud Messaging 配置](https://github.com/xiejinpeng007/LearnNotes/blob/master/FcmSetup/FirebaseNotification_Setup.md)  
 * ### [Kotlin 学习心得和优秀资源整合](https://github.com/xiejinpeng007/LearnNotes/blob/master/Kotlin/Kotlin.md)
 * ### [[精华翻译] Rxjava : What's different in 2.0](https://github.com/xiejinpeng007/LearnNotes/blob/master/RxJava%202.0/What's%20different%20in%202.md)
+* ### [Google 新提出的App Architecture分析](https://github.com/xiejinpeng007/LearnNotes/blob/master/App%20Architecture/App%20Architecture.md)
