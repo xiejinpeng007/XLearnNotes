@@ -1,4 +1,4 @@
-
+[![](https://badge.juejin.im/entry/5938bec2da2f600067f58903/likes.svg?style=flat)](https://juejin.im/entry/5938bec2da2f600067f58903/detail)
 ## App Architecture
 
 
