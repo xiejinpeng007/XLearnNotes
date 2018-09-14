@@ -1,4 +1,6 @@
-本人读完了 `RxJava 2.x` ：[What's different in 2.0](https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0) 后，将值得重点注意的变化进行了翻译和归纳，如果错误请批评指正。
+[![](https://badge.juejin.im/entry/58f82cf48d6d81005875c0e0/likes.svg?style=flat-square)](https://juejin.im/entry/58f82cf48d6d81005875c0e0/detail)
+
+读完了 `RxJava 2.x` ：[What's different in 2.0](https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0) 后，将值得重点注意的变化进行了翻译和归纳，如果错误请批评指正。
 
 ## Maven仓库依赖地址和包名的变更 ：   
 * Maven 仓库地址在 `io.reactivex.rxjava2:rxjava:2.x.y` 下  
