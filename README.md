@@ -1,6 +1,7 @@
 
-## [简书](http://www.jianshu.com/u/6dc12edec1f8)的一些微小的学习笔记
+## [掘金](https://juejin.im/user/570b4e382e958a005587ad69)的一些微小的学习笔记
 
+* ### [Rxjava2.x 原理解析](https://github.com/xiejinpeng007/LearnNotes/blob/master/RxJava2_SourceCode/Rxjava2.x 原理解析.md)
 * ### [Kotlin 中的依赖注入 KODEIN](https://github.com/xiejinpeng007/LearnNotes/blob/master/Kodein/Kodein.md)
 * ### [XDslAdapter](https://github.com/xiejinpeng007/LearnNotes/blob/master/XDslAdapter/XDslAdapter.md)
 * ### [Swagger (YAML OpenAPI) 从放弃到入门](https://github.com/xiejinpeng007/LearnNotes/blob/master/Swagger/Swagger.md)
