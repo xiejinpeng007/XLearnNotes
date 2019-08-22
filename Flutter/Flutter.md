@@ -473,7 +473,7 @@ class ButtonFactory(
                           _registerText()
                         ],
                       ),
-                    )
+                    ),
                   ],
                 ),
               ),
