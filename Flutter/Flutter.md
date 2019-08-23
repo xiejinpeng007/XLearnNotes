@@ -71,11 +71,11 @@ Widget 分为 `StatelessWidget` `StatefulWidget` 两种，他们的核心方法�
 * `StatefulWidget`由于必须创建相应的 `State<T extends Widget>` ,所以包括`build()`在内的相关生命周期方法都在`State`中。  
 下面是`State`的生命周期，由于一个画面也是一个 Widget 所以也是一个画面的生命周期。
 
-![widget_lifecyle.jpg](/knowledge/open.file/download?fileNo=226)
+![widget_lifecyle.jpg](https://github.com/xiejinpeng007/XLearnNotes/blob/master/Flutter/widget_lifecyle.jpg)
 
 ### Widget 目录 ( [link](https://flutterchina.club/widgets/material/) )
 
-![widgets.png](/knowledge/open.file/download?fileNo=228)
+![widgets.png](https://github.com/xiejinpeng007/XLearnNotes/blob/master/Flutter/widgets.png)
 
 上面是官方提供的所有的 Widget，可以看到基本上所有UI相关的内容都是通过不同类型的 Widget 来实现，通过`child/children`参数进行嵌套。
 #### 不同风格的 Widget
@@ -203,7 +203,7 @@ class _SplashState extends State<SplashPage> {
 
 ### App 结构
 
-![counterAppwidgertree.jpg](/knowledge/open.file/download?fileNo=227)
+![counterAppwidgertree.jpg](https://github.com/xiejinpeng007/XLearnNotes/blob/master/Flutter/counterAppwidgertree.jpg)
 
 上图是整个 Flutter App 的结构，从父节点开始分别是：
 
