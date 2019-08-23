@@ -1,4 +1,4 @@
-# Flutter 开发经验总结
+# Flutter 介绍 & 经验总结
 
 ## 前言
 Flutter 已经推出2年了，虽然一直在关注，但还是想等生态成熟一点再去踩坑。近期有一个需要使用跨平台技术的项目，在讨论后，我们选择使用 Flutter。开发完成之后，我这里总结一些重要的点，供大家参考。  
@@ -71,11 +71,11 @@ Widget 分为 `StatelessWidget` `StatefulWidget` 两种，他们的核心方法�
 * `StatefulWidget`由于必须创建相应的 `State<T extends Widget>` ,所以包括`build()`在内的相关生命周期方法都在`State`中。  
 下面是`State`的生命周期，由于一个画面也是一个 Widget 所以也是一个画面的生命周期。
 
-![widget_lifecyle.jpg](https://github.com/xiejinpeng007/XLearnNotes/blob/master/Flutter/widget_lifecyle.jpg)
+![widget_lifecyle.jpg](https://github.com/xiejinpeng007/XLearnNotes/blob/master/Flutter/widget_lifecyle.jpg?raw=true)
 
 ### Widget 目录 ( [link](https://flutterchina.club/widgets/material/) )
 
-![widgets.png](https://github.com/xiejinpeng007/XLearnNotes/blob/master/Flutter/widgets.png)
+![widgets.png](https://github.com/xiejinpeng007/XLearnNotes/blob/master/Flutter/widgets.png?raw=true)
 
 上面是官方提供的所有的 Widget，可以看到基本上所有UI相关的内容都是通过不同类型的 Widget 来实现，通过`child/children`参数进行嵌套。
 #### 不同风格的 Widget
@@ -203,7 +203,7 @@ class _SplashState extends State<SplashPage> {
 
 ### App 结构
 
-![counterAppwidgertree.jpg](https://github.com/xiejinpeng007/XLearnNotes/blob/master/Flutter/counterAppwidgertree.jpg)
+![counterAppwidgertree.jpg](https://github.com/xiejinpeng007/XLearnNotes/blob/master/Flutter/counterAppwidgertree.jpg?raw=true)
 
 上图是整个 Flutter App 的结构，从父节点开始分别是：
 
