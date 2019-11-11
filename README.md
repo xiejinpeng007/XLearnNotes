@@ -1,6 +1,7 @@
 
 ## 一些微小的学习笔记 [BLOG](https://xiejinpeng007.github.io/) [掘金](https://juejin.im/user/570b4e382e958a005587ad69) [简书](https://www.jianshu.com/u/6dc12edec1f8)
 
+* ### [给现有 App 引入 Flutter Module](https://github.com/xiejinpeng007/XLearnNotes/blob/master/addfluttertoapp/add_to_app.md)
 * ### [Flutter 开发经验总结](https://github.com/xiejinpeng007/XLearnNotes/blob/master/Flutter/Flutter.md)
 * ### [Rxjava2.x 原理解析](https://github.com/xiejinpeng007/XLearnNotes/blob/master/RxJava2_SourceCode/Rxjava2.x%20SourceCode%20Review.md)
 * ### [Kotlin 中的依赖注入 KODEIN](https://github.com/xiejinpeng007/LearnNotes/blob/master/Kodein/Kodein.md)
