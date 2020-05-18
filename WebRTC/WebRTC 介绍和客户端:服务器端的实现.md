@@ -16,7 +16,7 @@
 
 #### 基本的图示：
 
-![](/Users/jinpengxie/Downloads/simple_arch.png)
+![](https://github.com/xiejinpeng007/XLearnNotes/blob/master/WebRTC/simple_arch.png)
 
 从上图可以看AB互相呼叫的相关流程需要通过信令服务器中转，而视频/音频等流量数据是点对点直接传输的。
 
