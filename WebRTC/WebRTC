@@ -16,7 +16,7 @@
 
 #### 基本的图示：
 
-![](https://github.com/xiejinpeng007/XLearnNotes/blob/master/WebRTC/simple_arch.png)
+![](https://github.com/xiejinpeng007/XLearnNotes/blob/master/WebRTC/simple_arch.png?raw=true)
 
 从上图可以看AB互相呼叫的相关流程需要通过信令服务器中转，而视频/音频等流量数据是点对点直接传输的。
 
@@ -34,9 +34,10 @@
 * [Session Description Protocol](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Protocols#SDP) :一种用于描述在设备之间共享媒体的连接的数据格式.
 *  [Interactive Connectivity Establishment (ICE) ](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Protocols#ICE): 一个用于网络穿透的框架，其中使用 TURN/STUN 服务来实现。
 *  [Session Traversal Utilities for NAT (STUN)](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Protocols#STUN): 用于获取公网地址的协议
-<div align="center"><img src="/Users/jinpengxie/Downloads/webrtc-stun.png" height="300"></div>
+<div align="center"><img src="https://github.com/xiejinpeng007/XLearnNotes/blob/master/WebRTC/webrtc-stun.png?raw=true" height="300"></div>
+
 *  [Traversal Using Relays around NAT (TURN) ](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Protocols#TURN): 用于中继数据的协议
-<div align="center"><img src="/Users/jinpengxie/Downloads/webrtc-turn.png" height="300"></div>
+<div align="center"><img src="https://github.com/xiejinpeng007/XLearnNotes/blob/master/WebRTC/webrtc-turn.png?raw=true" height="300"></div>
 
 #### 建立连接的基本流程：
 
@@ -370,17 +371,17 @@ private fun sendMessage(to: String, type: String, payload: JSONObject) {
 部署：
 在 SignalServer 根目录下执行 `node app.js`  会部署在 3000 端口，并监听客户端的连接情况。
 
-<img src="/Users/jinpengxie/Desktop/webrtc_server.png" height="400">
+<img src="https://github.com/xiejinpeng007/XLearnNotes/blob/master/WebRTC/webrtc_server.png" height="400">
 
 ### 使用和演示
 
 输入信令服务器地址（公网和局域网皆可）连接服务器后， 根据在线用户进行呼叫，由于 STUN 服务器用了 Google 的，所以需要梯子。
 
 1. 设定服务器地址查看在线用户  
-<img src="/Users/jinpengxie/Desktop/webrtc_android.png" height="500">
+<img src="https://github.com/xiejinpeng007/XLearnNotes/blob/master/WebRTC/webrtc_android.png?raw=true" height="500">
 
 2. 选择用户进行拨号连接  
-<img src="/Users/jinpengxie/Desktop/webrtc_android_demo.gif" height="500">
+<img src="https://github.com/xiejinpeng007/XLearnNotes/blob/master/WebRTC/webrtc_android_demo.gif?raw=true" height="500">
 
 ### 总结
 优点：
