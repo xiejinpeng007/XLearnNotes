@@ -2,7 +2,7 @@
 
 # Android 10(Q)/11(R) 分区存储适配
 
-*大部分应用都会请求 ( READ_EXTERNAL_STORAGE ) ( WRITE_EXTERNAL_STORAGE ) 存储权限，来做一些诸如在 SD 卡中存储文件或者读取多媒体文件等常规操作。这些应用可能会在磁盘中存储大量文件，即使应用被卸载了还会依然存在。另外，这些应用还可能会读取其他应用的一些敏感文件数据。
+大部分应用都会请求 ( READ_EXTERNAL_STORAGE ) ( WRITE_EXTERNAL_STORAGE ) 存储权限，来做一些诸如在 SD 卡中存储文件或者读取多媒体文件等常规操作。这些应用可能会在磁盘中存储大量文件，即使应用被卸载了还会依然存在。另外，这些应用还可能会读取其他应用的一些敏感文件数据。
 
 为此，Google 终于下定决心在 Android 10 中引入了分区存储，对权限进行场景的细分，按需索取，并在 Android 11 中进行了进一步的调整。
 
@@ -25,7 +25,7 @@ Android 10 中主要对`共享目录`进行了权限详细的划分，不再能�
 
 受影响的接口：
 
-![scpoed-storage-1](/Users/jinpengxie/Documents/Android/XLearnNotes/ScopedStorage/scpoed-storage-1.png)
+![scpoed-storage-1](https://github.com/xiejinpeng007/XLearnNotes/blob/master/ScopedStorage/scpoed-storage-1.png)
 
 
 
@@ -49,7 +49,7 @@ Android 10 中主要对`共享目录`进行了权限详细的划分，不再能�
 
 新的访问方式：
 
-![scpoed-storage-2](/Users/jinpengxie/Documents/Android/XLearnNotes/ScopedStorage/scoped-storage-2.png)
+![scpoed-storage-2](https://github.com/xiejinpeng007/XLearnNotes/blob/master/ScopedStorage/scoped-storage-2.png)
 
 
 
@@ -427,7 +427,7 @@ override fun onActivityResult(requestCode: Int, resultCode: Int,
 `createFavoriteRequest()` `createTrashRequest()` `createDeleteRequest()` 同理
 
 
-![批量删除图片](/Users/jinpengxie/Documents/Android/XLearnNotes/ScopedStorage/scoped-storage-5.png)
+![scpoed-storage-5](https://github.com/xiejinpeng007/XLearnNotes/blob/master/ScopedStorage/scoped-storage-5.png)
 
 
 
@@ -477,11 +477,11 @@ A：官方文档上写了只能创建相应类型的媒体/文件，具体如何
 
 去年（19年）的文档描述是无论 targetSDK 多少，明年（20年）高版本强制启用。
 
-![scoped-storage-3](/Users/jinpengxie/Documents/Android/XLearnNotes/ScopedStorage/scoped-storage-3.png)
+![scpoed-storage-3](https://github.com/xiejinpeng007/XLearnNotes/blob/master/ScopedStorage/scoped-storage-3.png)
 
 今年（20）文档描述是 targetSDK >=30 才强制启用
 
-![scoped-storage-4](/Users/jinpengxie/Documents/Android/XLearnNotes/ScopedStorage/scoped-storage-4.png)
+![scpoed-storage-4](https://github.com/xiejinpeng007/XLearnNotes/blob/master/ScopedStorage/scoped-storage-4.png)
 
 
 
