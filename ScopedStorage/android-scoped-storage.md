@@ -117,7 +117,7 @@ MediaStore API 新增的方法
 
 #### 1） 查询媒体集（需要 READ_EXTERNAL_STORAGE 权限）
 
-实际上 `MediaStore ` 是以前就有的 API ，不同的是过去主要通过 `MediaStore.Video.Media._DATA` 这个 colum 请求原始数据，可以得到绝对`Uri` ，现在需要请求`MediaStore.Video.Media._ID`来得到相对`Uri`再进行处理。
+实际上 `MediaStore ` 是以前就有的 API ，不同的是过去主要通过 `MediaStore.Video.Media._DATA` 这个 `Column` 请求原始数据，可以得到绝对`Uri` ，现在需要请求`MediaStore.Video.Media._ID`来得到相对`Uri`再进行处理。
 
 ```kotlin
 // Need the READ_EXTERNAL_STORAGE permission if accessing video files that your
