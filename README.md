@@ -1,7 +1,7 @@
 
 ## 一些微小的学习笔记 [BLOG](https://xiejinpeng007.github.io/) [掘金](https://juejin.im/user/570b4e382e958a005587ad69) [简书](https://www.jianshu.com/u/6dc12edec1f8)
 
-* ### Chrome Extensions 开发简介(https://github.com/xiejinpeng007/XLearnNotes/blob/master/chrome-extension-intro/chrome-extension-intro.md)
+* ### [Chrome Extensions 开发简介](https://github.com/xiejinpeng007/XLearnNotes/blob/master/chrome-extension-intro/chrome-extension-intro.md)
 * ### [Android 10(Q)/11(R) 分区存储适配](https://github.com/xiejinpeng007/XLearnNotes/blob/master/ScopedStorage/android-scoped-storage.md)
 * ### [WebRTC 介绍和客户端/服务器端的实现.md](https://github.com/xiejinpeng007/XLearnNotes/tree/master/WebRTC/WebRTC.md)
 * ### [给现有 App 引入 Flutter Module](https://github.com/xiejinpeng007/XLearnNotes/blob/master/addfluttertoapp/add_to_app.md)
