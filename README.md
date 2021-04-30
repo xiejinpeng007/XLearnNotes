@@ -1,6 +1,7 @@
 
-## 一些微小的学习笔记 [BLOG](https://xiejinpeng007.github.io/) [掘金](https://juejin.im/user/570b4e382e958a005587ad69) [简书](https://www.jianshu.com/u/6dc12edec1f8)
+## 一些微小的学习笔记 [BLOG](https://xiejinpeng007.github.io/) [掘金](https://juejin.im/user/570b4e382e958a005587ad69)
 
+* ### [AppBundle 详解和实际效果对比](https://github.com/xiejinpeng007/XLearnNotes/blob/master/Appbundle/appbundle-intro.md)
 * ### [Chrome Extensions 开发简介](https://github.com/xiejinpeng007/XLearnNotes/blob/master/chrome-extension-intro/chrome-extension-intro.md)
 * ### [Android 10(Q)/11(R) 分区存储适配](https://github.com/xiejinpeng007/XLearnNotes/blob/master/ScopedStorage/android-scoped-storage.md)
 * ### [WebRTC 介绍和客户端/服务器端的实现.md](https://github.com/xiejinpeng007/XLearnNotes/tree/master/WebRTC/WebRTC.md)
