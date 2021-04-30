@@ -1,4 +1,4 @@
-#AppBundle详解和实际效果对比
+# AppBundle详解和实际效果对比
 
 >从 2021 年 8 月起，新应用需要使用 Android App Bundle 才能在 Google Play 中发布。现在，Play Feature Delivery 或 Play Asset Delivery 支持大小超过 150 MB 的新应用。
 
